@@ -8,11 +8,21 @@ package Strings;
 public class String_1 {
     public static void main(String args[]){
         String StringLiteral = "hello Letral";
+        String lt = "yolo";
+        System.out.println(StringLiteral.contains(lt));
 
         String NewKeyString = new String("Hello new String key");
         NewKeyString = "hola";
-        StringLiteral = "Jimmy";
+        StringLiteral = "Jimmy".intern();
+        System.out.println(StringLiteral.charAt(3));
+        // returning Strings from index 2
+        System.out.println(StringLiteral.substring(2));
         System.out.println(StringLiteral + " " + NewKeyString);
 
+
+        //Immutable String
+        NewKeyString.concat(StringLiteral);
+        System.out.println(NewKeyString);
     };
+
 }
