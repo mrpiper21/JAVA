@@ -1,5 +1,5 @@
 package LinkedList;
-import java.io.*;
+// import java.io.*;
 // A linked list is a fundamental data structure in computer science. 
 //It consists of nodes where each node contains data and a reference (link) to the 
 //next node in the sequence. This allows for dynamic memory allocation and 
@@ -38,13 +38,30 @@ class LinkedList {
         head = new_node;
     }
 
-}
+    // Printing content of a linked list starting from head
+    void printList(){
+        Node node = head;
+        while (node != null){
+            System.out.print(node.data + " ");
+            node = node.next;
+        };
+        System.out.println();
+    }
+
+};
 
 public class Link_01 {
+    public static void main(String args[]){
+        LinkedList list = new LinkedList();
 
-    public void push(int new_data){
+        list.inserAtFront(6);
+        list.inserAtFront(5);
+        list.inserAtFront(3);
+        list.inserAtFront(2);
+        list.inserAtFront(1);
+        list.inserAtFront(0);
 
-       
-
-    };
-};
+        System.out.print("After inserting nodes at their front: ");
+        list.printList();
+    }
+}
