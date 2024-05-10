@@ -31,5 +31,12 @@ class LinkedList {
 public class Link_ex_1 {
     public static void main(String args[]){
         System.out.println("Hello World");
+
+        LinkedList List = new LinkedList();
+
+        List.insertAtFront(1);
+        List.insertAtFront(0);
+
+        List.printList();
     }
 }
