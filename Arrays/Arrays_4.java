@@ -1,4 +1,3 @@
-package Arrays;
 // Java array members
 
 // Single-dimensional Array: -> When you clone a single-dimensional array, such as Object[], a “deep copy” is performed with the new array containing 

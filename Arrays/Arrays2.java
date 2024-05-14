@@ -1,4 +1,3 @@
-package Arrays;
 // Passing Arrays to Methods
 
 public class Arrays2 {
@@ -28,16 +27,16 @@ public class Arrays2 {
         };
         System.out.println(sum);
     };
-};
-
-class Book {
-    public String title;
-    public int pages;
-    public String author;
-
-    Book(String TITLE, int PAGES, String AUTHOR){
-        this.title = TITLE;
-        this.author = AUTHOR;
-        this.pages = PAGES;
+    public static class Book {
+        public String title;
+        public int pages;
+        public String author;
+    
+        Book(String TITLE, int PAGES, String AUTHOR){
+            this.title = TITLE;
+            this.author = AUTHOR;
+            this.pages = PAGES;
+        };
     };
 };
+

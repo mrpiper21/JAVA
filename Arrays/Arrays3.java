@@ -1,5 +1,3 @@
-package Arrays;
-
 // Returning Arrays from Methods
 public class Arrays3 {
     public static void main(String args[]){
