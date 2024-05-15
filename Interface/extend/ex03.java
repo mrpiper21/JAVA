@@ -15,7 +15,7 @@ interface Bank {
 abstract class Dev1 implements Bank{
     public void deposit(){
         System.out.println("your deposit Amount :" + 100);
-    }
+    };
 }
 
 abstract class Dev2 extends Dev1{
