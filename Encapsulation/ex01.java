@@ -20,7 +20,8 @@ public class ex01 {
         emma.setName("Emmanuel Donkor");
         emma.setAge(23);
         String Name = emma.getName();
+        int Age = emma.getAge();
         System.out.println(Name);
-        // System.out.println(Name);
+        System.out.println(Age);
     }
 }
