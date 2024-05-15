@@ -7,8 +7,8 @@ interface Verhicle {
 }
 
 class Bicycle implements Verhicle {
-    int speed;
-    int gear;
+    int speed = 0;
+    int gear = 0;
 
     @Override public void speedUp(int increment){
         speed = speed + increment;
