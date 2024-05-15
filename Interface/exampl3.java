@@ -6,7 +6,7 @@ interface API {
     }
 }
 
-interface Interface1 extends API {
+interface Interface1 extends API{
     // Abstract method
     void display();
 }
@@ -27,7 +27,7 @@ public class exampl3 implements Interface1, Interface2 {
     };
 
     public static void main(String args[]){
-        // Creating object of thid class in main() method
+        // Creating object of third class in main() method
 
         exampl3 d = new exampl3();
         // calling the methods from both interfaces
