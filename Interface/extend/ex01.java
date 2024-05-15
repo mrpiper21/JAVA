@@ -24,8 +24,6 @@ class gfg implements B{
 }
 
 public class ex01 {
-    
-
     public static void main(String args[]){
         gfg h = new gfg();
         h.method1();
