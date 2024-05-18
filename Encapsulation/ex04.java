@@ -18,8 +18,10 @@ class Account {
     public void setAmount(float AMOUNT) { this.amount = AMOUNT; };
 
     public String[] getUserInfo(){
-        String acc = String.format( "%s", acc_no);
-        String amnt = String.format( "%s", amount);
+        // String acc = String.format( "%s", acc_no);
+        String acc = "" + acc_no;
+        // String amnt = String.format( "%s", amount);
+        String amnt = "" + acc_no;
         String[] info = {name, email, acc, amnt};
         return info;
     }
