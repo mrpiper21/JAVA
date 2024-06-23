@@ -20,6 +20,18 @@ public class ex01{
 
         // copy contents of list into list copy
         Collections.copy(listCopy, l);
+        System.out.println("Copy of list : ");
+        output(listCopy);
 
+        // fill collection with crap
+        Collections.fill(l, 'X');
+        System.out.println("After filling the list : ");
+        output(l);
     }
+    private static void output(List<Character> thelist){
+        for(Character thing: thelist){
+            System.out.printf("%s ", thing);
+        }
+    }
+
 }
