@@ -1,7 +1,7 @@
 package Methods;
 
 public class MTHD1 {
-    public static class Example {
+    private static class Example {
         private int number;
         private String name;
     

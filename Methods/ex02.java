@@ -7,7 +7,7 @@ public class ex02 {
         String[] stuff = {"apples", "beef", "corn", "ham"};
         List<String> list1 = Arrays.asList(stuff);
 
-        ArrayList<String> list2 = new ArrayList<String>();
+        List<String> list2 = new ArrayList<String>();
         list2.add("youtube");
         list2.add("google");
         list2.add("digg");
@@ -16,6 +16,7 @@ public class ex02 {
             System.out.printf("%s ", x);
         }
 
+        //adding all stuff to list2
         Collections.addAll(list2, stuff);
 
         System.out.println();
